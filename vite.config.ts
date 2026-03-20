@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: '/dion-uebelacker/',
-  plugins: [react()],
+  plugins: [reactRouter()],
 })
