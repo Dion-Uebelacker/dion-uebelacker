@@ -1,4 +1,4 @@
-import {Routes, Route} from "react-router-dom";
+import {Routes, Route} from "react-router";
 import HomeView from "./views/HomeView/HomeView.tsx";
 import ImprintView from "./views/ImprintView/ImprintView.tsx";
 import PrivacyView from "./views/PrivacyView/PrivacyView.tsx";
