@@ -191,7 +191,7 @@ const HomeView: React.FC = () => {
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
                   <Typography variant="body1">Spring Boot, Flutter, European Cloud Provider</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
-                  <<List component="ul" dense>
+                  <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
                       <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Owning the software architecture and continuously refining it to meet business and technical requirements" />
                     </ListItem>
