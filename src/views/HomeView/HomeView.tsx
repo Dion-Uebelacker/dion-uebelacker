@@ -185,6 +185,34 @@ const HomeView: React.FC = () => {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
+                  <Typography variant="h5">Lead Developer – Mobile Application for Diabetes Nutrition Education</Typography>
+                  <Typography variant="body2">Duration: 11/2023 - 08/2024</Typography>
+                  <Typography mt={2} variant="body1">Leading the development of a mobile application that helped people with diabetes to improve food awareness and estimate portion sizes more accurately</Typography>
+                  <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
+                  <Typography variant="body1">Spring Boot, Flutter, European Cloud Provider</Typography>
+                  <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
+                  <<List component="ul" dense>
+                    <ListItem component="li" sx={{ display: 'list-item' }}>
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Owning the software architecture and continuously refining it to meet business and technical requirements" />
+                    </ListItem>
+                    <ListItem component="li" sx={{ display: 'list-item' }}>
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Defining the technical roadmap and steering implementation priorities" />
+                    </ListItem>
+                    <ListItem component="li" sx={{ display: 'list-item' }}>
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Proactively managing technical risks and driving mitigation and escalation when necessary" />
+                    </ListItem>
+                    <ListItem component="li" sx={{ display: 'list-item' }}>
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Maintaining architecture diagrams and API specifications, and organizing technical workshops and knowledge-transfer sessions" />
+                    </ListItem>
+                  </List>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
                   <Typography variant="h5">Lead Developer – Team Satisfaction Application</Typography>
                   <Typography variant="body2">Duration: 02/2020 - 01/2022</Typography>
                   <Typography mt={2} variant="body1">Led the development of a web application that enabled teams to capture feedback on relevant topics, visualize trends over time, and identify areas requiring action.</Typography>
