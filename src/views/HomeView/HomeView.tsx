@@ -185,30 +185,33 @@ const HomeView: React.FC = () => {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Typography variant="h5">Lead Developer - Development of an application to improve Team satisfaction</Typography>
+                  <Typography variant="h5">Lead Developer – Team Satisfaction Application</Typography>
                   <Typography variant="body2">Duration: 02/2020 - 01/2022</Typography>
-                  <Typography mt={2} variant="body1">A web application in which teams can capture their mood on various topics and visualize changes over time, enabling them to quickly identify critical issues and take appropriate measures.</Typography>
+                  <Typography mt={2} variant="body1">Led the development of a web application that enabled teams to capture feedback on relevant topics, visualize trends over time, and identify areas requiring action.</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
                   <Typography variant="body1">Kotlin, Spring Boot, React, Openshift</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
-                    <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Designing, evaluating, and continuously refining the software architecture" />
+                    <ListItem component="li" sx={{ display: 'list-item' }} >
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Leading an intercontinental, cross-functional development team in a distributed environment" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Defining the technical Roadmap and prioritizing work packages" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Owning and continuously refining the software architecture" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Coaching and Guiding other developers, promoting best practices and fostering a culture of continuous learning" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Defining the technical roadmap and steering implementation priorities" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Acting as the technical point of contact for Product Owners, project managers, and Clients" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Mentoring developers and establishing strong engineering standards and best practices" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Proactively identifying technical risks, initiating mitigation, and escalating critical issues" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Acting as the main technical contact for Product Owners, project managers, and stakeholders" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Maintaining architecture diagrams and API specs, and organizing workshops or brown-bag sessions for knowledge Transfer" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Proactively managing technical risks and driving mitigation and escalation when necessary" />
+                    </ListItem>
+                    <ListItem component="li" sx={{ display: 'list-item' }}>
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Maintaining architecture diagrams and API specifications, and organizing technical workshops and knowledge-transfer sessions" />
                     </ListItem>
                   </List>
                 </TimelineContent>
@@ -219,27 +222,24 @@ const HomeView: React.FC = () => {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Typography variant="h5">Software Engineer - Development of an application to eliminating traffic jams worldwide</Typography>
+                  <Typography variant="h5">Software Engineer – Traffic Information Platform</Typography>
                   <Typography variant="body2">Duration: 03/2019 - 02/2020</Typography>
-                  <Typography mt={2} variant="body1">Providing a system for cities, municipalities, and public institutions, which would provide personalized traffic information for drivers through an app.</Typography>
+                  <Typography mt={2} variant="body1">Worked on the development of a traffic information platform for cities, municipalities, and public institutions, enabling the delivery of personalized traffic information to drivers through mobile applications.</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
                   <Typography variant="body1">Java, Spring Boot, React, React Native, Azure, Mapbox</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Evaluation and selection of Technologies" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Owning and continuously refining the software architecture" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Implementation of the backend with Spring Boot & Java" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Developing backend services using Java and Spring Boot" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Implementation of the web frontend with React & Typescript" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Implementing the web frontend with React and TypeScript" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Documentation of processes for the development" />
-                    </ListItem>
-                    <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Building and optimizing the CI/CD Pipelines" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Maintaining architecture diagrams and API specifications, and organizing technical workshops and knowledge-transfer sessions" />
                     </ListItem>
                   </List>
                 </TimelineContent>
