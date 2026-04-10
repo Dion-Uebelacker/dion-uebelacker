@@ -187,7 +187,7 @@ const HomeView: React.FC = () => {
                 <TimelineContent>
                   <Typography variant="h5">Lead Developer – Mobile Application for Diabetes Nutrition Education</Typography>
                   <Typography variant="body2">Duration: 11/2023 - 08/2024</Typography>
-                  <Typography mt={2} variant="body1">Leading the development of a mobile application that helped people with diabetes to improve food awareness and estimate portion sizes more accurately</Typography>
+                  <Typography mt={2} variant="body1">Led the development of a mobile application that helped people with diabetes to improve food awareness and estimate portion sizes more accurately</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
                   <Typography variant="body1">Spring Boot, Flutter, European Cloud Provider</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
