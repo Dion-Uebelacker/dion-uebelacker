@@ -81,40 +81,31 @@ const HomeView: React.FC = () => {
             <Typography variant='h6'>Skills</Typography>
           </Grid>
           <Grid mt={2} pl={2}>
-            <Typography>Java / Kotlin</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey',}} variant="determinate" value={90} />
-          </Grid>
-          <Grid mt={2} pl={2}>
             <Typography>Spring Boot</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey'}} variant="determinate" value={90} />
           </Grid>
           <Grid mt={2} pl={2}>
-            <Typography>Javascript / Typescript</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey',}} variant="determinate" value={90} />
+            <Typography>React & React Native</Typography>
           </Grid>
           <Grid mt={2} pl={2}>
-            <Typography>React</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey'}} variant="determinate" value={90} />
-          </Grid>
-          <Grid mt={2} pl={2}>
-            <Typography>Angular 2+</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey'}} variant="determinate" value={70} />
+            <Typography>Flutter</Typography>
           </Grid>
           <Grid mt={2} pl={2}>
             <Typography>Openshift</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey',}} variant="determinate" value={80} />
           </Grid>
           <Grid mt={2} pl={2}>
             <Typography>Azure</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey',}} variant="determinate" value={50} />
           </Grid>
           <Grid mt={2} pl={2}>
-            <Typography>Github Actions</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey'}} variant="determinate" value={70} />
+            <Typography>DevOps & GitOps</Typography>
           </Grid>
           <Grid mt={2} pl={2}>
             <Typography>Kubernetes</Typography>
-            <LinearProgress sx={{backgroundColor: 'lightGrey'}} variant="determinate" value={70} />
+          </Grid>
+          <Grid mt={2} pl={2}>
+            <Typography>SonarQube</Typography>
+          </Grid>
+          <Grid mt={2} pl={2}>
+            <Typography>New Relic</Typography>
           </Grid>
           <Grid mt={3}>
             <Typography variant='h6'>Education</Typography>
@@ -152,7 +143,7 @@ const HomeView: React.FC = () => {
                   <Typography variant="body2">Duration: 01/2022 - Present</Typography>
                   <Typography mt={2} variant="body1">Leading the development of a web-based design analysis platform for engineers, supporting Design for Reliability, Design for Robustness, Design for Security, and Design for Safety across the full development lifecycle.</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
-                  <Typography variant="body1">Java, Spring Boot, React, Openshift, Github Copilot, n8n – workflow automation with AI agents</Typography>
+                  <Typography variant="body1">Spring Boot, React, Openshift, Github Copilot, n8n – workflow automation with AI agents</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }} >
@@ -217,7 +208,7 @@ const HomeView: React.FC = () => {
                   <Typography variant="body2">Duration: 02/2020 - 01/2022</Typography>
                   <Typography mt={2} variant="body1">Led the development of a web application that enabled teams to capture feedback on relevant topics, visualize trends over time, and identify areas requiring action.</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
-                  <Typography variant="body1">Kotlin, Spring Boot, React, Openshift</Typography>
+                  <Typography variant="body1">Spring Boot, React, Openshift</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }} >
@@ -254,7 +245,7 @@ const HomeView: React.FC = () => {
                   <Typography variant="body2">Duration: 03/2019 - 02/2020</Typography>
                   <Typography mt={2} variant="body1">Worked on the development of a traffic information platform for cities, municipalities, and public institutions, enabling the delivery of personalized traffic information to drivers through mobile applications.</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
-                  <Typography variant="body1">Java, Spring Boot, React, React Native, Azure, Mapbox</Typography>
+                  <Typography variant="body1">Spring Boot, React, React Native, Azure, Mapbox</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
@@ -282,7 +273,7 @@ const HomeView: React.FC = () => {
                   <Typography variant="body2">09/2017 - 03/2019</Typography>
                   <Typography mt={2} variant="body1">Development of a portal for the automation of standard processes.</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
-                  <Typography variant="body1">Kotlin | Spring Boot | Camunda | BPMN | Angular | Axon Framework</Typography>
+                  <Typography variant="body1">Spring Boot, Angular 2+, Camunda, BPMN, Axon Framework</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
