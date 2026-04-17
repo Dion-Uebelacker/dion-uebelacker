@@ -5,7 +5,6 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import LinearProgress from '@mui/material/LinearProgress';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -107,6 +106,9 @@ const HomeView: React.FC = () => {
           <Grid mt={2} pl={2}>
             <Typography>New Relic</Typography>
           </Grid>
+          <Grid mt={2} pl={2}>
+            <Typography>Agile Project Management</Typography>
+          </Grid>
           <Grid mt={3}>
             <Typography variant='h6'>Education</Typography>
           </Grid>
@@ -159,7 +161,7 @@ const HomeView: React.FC = () => {
                       <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Mentoring developers and establishing strong engineering standards and best practices" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Acting as the main technical interface for Product Owners, project managers, and clients" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Acting as the main technical interface for product owners, project managers, and clients" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
                       <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Proactively managing technical risks and driving mitigation and escalation when necessary" />
@@ -178,7 +180,7 @@ const HomeView: React.FC = () => {
                 <TimelineContent>
                   <Typography variant="h5">Lead Developer – Mobile Application for Diabetes Nutrition Education</Typography>
                   <Typography variant="body2">Duration: 11/2023 - 08/2024</Typography>
-                  <Typography mt={2} variant="body1">Led the development of a mobile application that helped people with diabetes to improve food awareness and estimate portion sizes more accurately</Typography>
+                  <Typography mt={2} variant="body1">Led the development of a mobile application that helps people with diabetes to improve food awareness and estimate portion sizes more accurately</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
                   <Typography variant="body1">Spring Boot, Flutter, Firebase, European Cloud Provider</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
@@ -206,7 +208,7 @@ const HomeView: React.FC = () => {
                 <TimelineContent>
                   <Typography variant="h5">Lead Developer – Team Satisfaction Application</Typography>
                   <Typography variant="body2">Duration: 02/2020 - 01/2022</Typography>
-                  <Typography mt={2} variant="body1">Led the development of a web application that enabled teams to capture feedback on relevant topics, visualize trends over time, and identify areas requiring action.</Typography>
+                  <Typography mt={2} variant="body1">Led the development of a web application that enables teams to capture feedback on relevant topics, visualize trends over time, and identify areas requiring action.</Typography>
                   <Typography mt={1} variant="subtitle1">Methods & Tools</Typography>
                   <Typography variant="body1">Spring Boot, React, Openshift</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
@@ -224,7 +226,7 @@ const HomeView: React.FC = () => {
                       <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Mentoring developers and establishing strong engineering standards and best practices" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Acting as the main technical contact for Product Owners, project managers, and stakeholders" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Acting as the main technical contact for product owners, project managers, and stakeholders" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
                       <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Proactively managing technical risks and driving mitigation and escalation when necessary" />
